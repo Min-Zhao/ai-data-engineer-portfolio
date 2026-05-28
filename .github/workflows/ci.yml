@@ -1,0 +1,48 @@
+name: Portfolio CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  backend-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        app:
+          - apps/pharma-research-agent/backend
+          - apps/literature-evidence-map/backend
+          - apps/assay-prioritization-console/backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: |
+          cd ${{ matrix.app }}
+          pip install -r requirements.txt
+      - name: Run tests
+        run: |
+          cd ${{ matrix.app }}
+          python -m pytest
+
+  frontend-builds:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        app:
+          - apps/pharma-research-agent/frontend
+          - apps/literature-evidence-map/frontend
+          - apps/assay-prioritization-console/frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build frontend
+        run: |
+          cd ${{ matrix.app }}
+          npm install
+          npm run build
+

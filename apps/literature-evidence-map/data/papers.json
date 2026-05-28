@@ -1,0 +1,39 @@
+[
+  {
+    "id": "LIT-101",
+    "title": "Interferon Signaling and Checkpoint Resistance",
+    "therapeutic_area": "oncology",
+    "abstract": "Tumor interferon signaling can shape checkpoint inhibitor response and resistance. Biomarker panels benefit from combining transcriptomic signatures with immune-cell context.",
+    "mechanisms": ["checkpoint resistance", "interferon signaling"],
+    "biomarkers": ["IFNG", "CXCL10", "PD-L1"],
+    "evidence_level": "translational"
+  },
+  {
+    "id": "LIT-117",
+    "title": "Kinase Escape Mutations in Targeted Therapy",
+    "therapeutic_area": "oncology",
+    "abstract": "Secondary kinase-domain mutations may reduce drug binding. Evidence maps should connect mutation prevalence, assay sensitivity, and compound selectivity.",
+    "mechanisms": ["kinase escape", "target engagement"],
+    "biomarkers": ["EGFR", "ALK", "BCR-ABL"],
+    "evidence_level": "preclinical"
+  },
+  {
+    "id": "LIT-204",
+    "title": "Inflammatory Bowel Disease Cytokine Axes",
+    "therapeutic_area": "immunology",
+    "abstract": "IL-23 and TNF pathways remain central intervention axes. Patient stratification requires integrating biomarkers, tissue context, and longitudinal response.",
+    "mechanisms": ["cytokine signaling", "patient stratification"],
+    "biomarkers": ["IL23A", "TNF", "CRP"],
+    "evidence_level": "clinical"
+  },
+  {
+    "id": "LIT-233",
+    "title": "ADME Liability Signals in Early Discovery",
+    "therapeutic_area": "platform",
+    "abstract": "Clearance, permeability, and solubility findings should be linked to structural alerts and assay transfer notes before advancing analogs.",
+    "mechanisms": ["clearance", "permeability"],
+    "biomarkers": ["microsomal stability", "efflux ratio"],
+    "evidence_level": "operational"
+  }
+]
+

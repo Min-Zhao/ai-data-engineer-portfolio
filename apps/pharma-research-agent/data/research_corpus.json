@@ -1,0 +1,59 @@
+[
+  {
+    "id": "BIO-001",
+    "title": "EGFR Resistance Biology Notes",
+    "section": "target biology",
+    "text": "Secondary EGFR mutations can reduce inhibitor binding and create resistance. Useful research triage combines mutation annotations, pathway context, and assay response curves before proposing a new medicinal chemistry direction.",
+    "tags": ["egfr", "resistance", "kinase", "target-biology"]
+  },
+  {
+    "id": "CHEM-014",
+    "title": "Kinase Series SAR Review",
+    "section": "medicinal chemistry",
+    "text": "The lead series improved biochemical potency after hinge-binding optimization, but selectivity against closely related kinases remained the main program risk. Chemists requested side-by-side evidence from potency, selectivity, and physicochemical-property tables.",
+    "tags": ["sar", "potency", "selectivity", "kinase"]
+  },
+  {
+    "id": "ADME-022",
+    "title": "Microsomal Stability Observation",
+    "section": "ADME",
+    "text": "Several analogs showed high intrinsic clearance in liver microsomes. A retrieval workflow should connect clearance observations to structure alerts, solubility notes, and previous optimization decisions.",
+    "tags": ["adme", "clearance", "microsomes", "solubility"]
+  },
+  {
+    "id": "ASSAY-031",
+    "title": "Cellular Assay Transfer Memo",
+    "section": "assay development",
+    "text": "Cellular potency did not track biochemical potency for a subset of compounds. Follow-up analysis should inspect permeability, efflux, target engagement, and assay-window differences before concluding mechanism failure.",
+    "tags": ["assay", "potency", "permeability", "target-engagement"]
+  },
+  {
+    "id": "RAG-008",
+    "title": "Research RAG Evaluation Pattern",
+    "section": "AI systems",
+    "text": "A production research assistant should store source metadata, rank retrieved snippets, cite every generated claim, evaluate top-k precision with scientist labels, and log user feedback for continuous improvement.",
+    "tags": ["rag", "evaluation", "citations", "vector-search"]
+  },
+  {
+    "id": "AGENT-017",
+    "title": "Agentic Workflow Guardrails",
+    "section": "AI systems",
+    "text": "Agentic research workflows should separate retrieval, synthesis, tool use, and reviewer roles. The reviewer should flag missing evidence, unsupported causal claims, safety-sensitive recommendations, and experiment-readiness gaps.",
+    "tags": ["agents", "guardrails", "llm", "workflow"]
+  },
+  {
+    "id": "DATA-009",
+    "title": "ELN and Literature Data Ingestion",
+    "section": "data engineering",
+    "text": "Scientific RAG systems require chunking protocols, assay tables, ELN notes, and literature summaries with stable identifiers. Pipelines should preserve project, modality, target, and access-control metadata.",
+    "tags": ["etl", "eln", "metadata", "data-engineering"]
+  },
+  {
+    "id": "AWS-004",
+    "title": "Cloud Deployment Considerations",
+    "section": "infrastructure",
+    "text": "A cloud-ready implementation can deploy the API behind an application load balancer, persist documents in object storage, use managed relational metadata, and run embedding refresh jobs on a scheduled worker.",
+    "tags": ["aws", "deployment", "s3", "rds"]
+  }
+]
+

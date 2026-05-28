@@ -1,0 +1,58 @@
+[
+  {
+    "id": "AS-100",
+    "name": "Biochemical potency panel",
+    "target": "EGFR",
+    "modality": "small molecule",
+    "cost": 12000,
+    "turnaround_days": 7,
+    "confidence": 0.86,
+    "decision_value": 0.78,
+    "risk": "May not translate to cellular potency."
+  },
+  {
+    "id": "AS-118",
+    "name": "Cellular target engagement",
+    "target": "EGFR",
+    "modality": "small molecule",
+    "cost": 18000,
+    "turnaround_days": 12,
+    "confidence": 0.81,
+    "decision_value": 0.88,
+    "risk": "Requires robust assay window."
+  },
+  {
+    "id": "AS-130",
+    "name": "Kinome selectivity screen",
+    "target": "EGFR",
+    "modality": "small molecule",
+    "cost": 42000,
+    "turnaround_days": 24,
+    "confidence": 0.9,
+    "decision_value": 0.92,
+    "risk": "Higher cost and slower turnaround."
+  },
+  {
+    "id": "AS-210",
+    "name": "Microsomal stability",
+    "target": "ADME",
+    "modality": "platform",
+    "cost": 9000,
+    "turnaround_days": 5,
+    "confidence": 0.76,
+    "decision_value": 0.73,
+    "risk": "Species translation should be reviewed."
+  },
+  {
+    "id": "AS-225",
+    "name": "Permeability and efflux panel",
+    "target": "ADME",
+    "modality": "platform",
+    "cost": 15000,
+    "turnaround_days": 10,
+    "confidence": 0.79,
+    "decision_value": 0.81,
+    "risk": "Transporter artifacts may confound ranking."
+  }
+]
+

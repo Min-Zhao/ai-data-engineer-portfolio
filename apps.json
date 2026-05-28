@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Pharma Research Agent Studio",
+    "path": "apps/pharma-research-agent",
+    "backend": "FastAPI",
+    "frontend": "React + TypeScript",
+    "keywords": ["RAG", "agentic workflow", "citations", "guardrails", "drug discovery"]
+  },
+  {
+    "name": "Literature Evidence Map",
+    "path": "apps/literature-evidence-map",
+    "backend": "FastAPI",
+    "frontend": "React + TypeScript",
+    "keywords": ["semantic search", "evidence clustering", "biomarkers", "literature triage"]
+  },
+  {
+    "name": "Assay Prioritization Console",
+    "path": "apps/assay-prioritization-console",
+    "backend": "FastAPI",
+    "frontend": "React + TypeScript",
+    "keywords": ["assay ranking", "decision support", "ADME", "medicinal chemistry"]
+  }
+]
+

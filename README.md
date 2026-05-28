@@ -52,16 +52,6 @@ Services:
 
 Frontend services are configured in each app on ports `5173`, `5174`, and `5175`.
 
-## Portfolio Narrative
-
-This portfolio is designed to show the role’s strongest hiring signals in a concrete way:
-
-1. I can translate scientific workflows into working software.
-2. I can build Python services that expose clean AI/data APIs.
-3. I can create practical React interfaces for scientists, not just backend demos.
-4. I understand RAG, evidence grounding, traceability, evaluation, and guardrails.
-5. I know how to frame prototypes for production: tests, deployment shape, monitoring gaps, and next steps.
-
 ## Production Upgrade Roadmap
 
 - Replace local deterministic retrieval with OpenAI, Hugging Face, or AWS Bedrock embeddings.

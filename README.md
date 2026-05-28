@@ -1,7 +1,5 @@
 # AI Data Engineer Portfolio: LLMs / Agentic Systems
 
-GitHub-ready portfolio built for the Pfizer **AI Data Engineer - LLMs / Agentic Systems** posting.
-
 The portfolio contains production-style full-stack applications with **Python backends** and **React frontends** for pharmaceutical research workflows: RAG, semantic search, agentic orchestration, evidence review, assay prioritization, and scientist-facing user experiences.
 
 ## Portfolio Applications
